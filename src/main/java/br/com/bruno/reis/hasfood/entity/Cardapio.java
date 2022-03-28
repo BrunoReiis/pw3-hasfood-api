@@ -1,8 +1,5 @@
 package br.com.bruno.reis.hasfood.entity;
 
-
-
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -22,8 +19,8 @@ public class Cardapio {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "ID_CARDAPIO")
-	private long IdCardapio;
+	private long idCardapio;
 	
 	@Column(name = "ID_RESTAURANTE")
-	private long IdRestaurante;
+	private long idRestaurante;
 }
